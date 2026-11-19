@@ -30,6 +30,7 @@ Jain (Deemed-To-Be) University
 | 3 | **SAMPATH PHILIP GEORGE** | `25BTRCL227` | 3D WebGL / Three.js Volumetric Venn & Spatial Particle Engine |
 | 4 | **ROKESH VENKATESH** | `25BTRCL213` | Graph Theory Network, Centrality Measures & Kruskal's MST |
 | 5 | **RAHUL BISWAS** | `25BTRCL205` | Data Engineering (UCI Retail Preprocessing) & Performance Audit |
+| 6 | **PRAVEEN KUMAR** | `25BTRCL195` | Interactive Simulation Systems & Real-Time Bounds Evaluation |
 
 ---
 
@@ -331,6 +332,9 @@ RetailReach is engineered as a zero-dependency, modern web application running e
 
 ### Rahul Biswas (`25BTRCL205`) — Data Engineering & Experimental Validation
 > *"Working with 541,909 raw UCI transactions reinforced the paramount importance of disciplined data preparation. Distinguishing between anonymous transactions and identified customer accounts was essential to prevent false set unions. The resulting 232 KB optimized JSON index proves that disciplined data structures enable instant client-side computation."*
+
+### Praveen Kumar (`25BTRCL195`) — Interactive Systems & Performance Evaluation
+> *"Connecting the mathematical solver to responsive user controls demonstrated the power of interactive education. Synchronizing the real-time Bonferroni bound calculations with dynamic 3D rendering gave immediate, visual feedback on how mathematical approximations behave as set parameters shift."*
 
 ---
 

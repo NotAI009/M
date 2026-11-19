@@ -76,16 +76,16 @@ def build_html():
 
   .cover-header-img {{
     width: 100%;
-    max-width: 530px;
+    max-width: 520px;
     height: auto;
-    margin: 0 auto 12px;
+    margin: 0 auto 10px;
     display: block;
     border: none !important;
     outline: none !important;
   }}
 
   .cover-title-box {{
-    margin: 15px 0 20px;
+    margin: 10px 0 16px;
   }}
 
   .project-type {{
@@ -95,11 +95,11 @@ def build_html():
     color: #4b5563;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
   }}
 
   .project-title {{
-    font-size: 17pt;
+    font-size: 16.5pt;
     font-weight: bold;
     line-height: 1.3;
     color: #111827;
@@ -108,17 +108,17 @@ def build_html():
   }}
 
   .project-subtitle {{
-    font-size: 11pt;
+    font-size: 10.5pt;
     font-style: italic;
     color: #4b5563;
-    margin-top: 8px;
+    margin-top: 6px;
     line-height: 1.35;
   }}
 
   .meta-table {{
     width: 100%;
     border-collapse: collapse;
-    margin: 18px 0;
+    margin: 14px 0;
     text-align: left;
   }}
 
@@ -130,37 +130,37 @@ def build_html():
 
   .meta-title {{
     font-family: 'Arial', sans-serif;
-    font-size: 10.5pt;
+    font-size: 10pt;
     font-weight: bold;
     text-transform: uppercase;
     color: #1f2937;
     border-bottom: 2px solid #1f2937;
-    padding-bottom: 3px;
-    margin-bottom: 8px;
+    padding-bottom: 2px;
+    margin-bottom: 6px;
   }}
 
   .mentor-details {{
-    font-size: 10pt;
-    line-height: 1.5;
+    font-size: 9.5pt;
+    line-height: 1.45;
   }}
 
   .mentor-details b {{
-    font-size: 11.5pt;
+    font-size: 11pt;
     color: #111;
     display: block;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
   }}
 
   .team-table {{
     width: 100%;
     border-collapse: collapse;
-    font-size: 9.5pt;
+    font-size: 9pt;
     margin-top: 2px;
     border: 1.5px solid #1f2937;
   }}
 
   .team-table th, .team-table td {{
-    padding: 5px 8px;
+    padding: 3.5px 7px;
     border: 1px solid #4b5563;
     text-align: left;
   }}
@@ -179,12 +179,12 @@ def build_html():
   }}
 
   .cover-footer {{
-    margin-top: 25px;
-    font-size: 9pt;
+    margin-top: 16px;
+    font-size: 8.5pt;
     color: #4b5563;
     border-top: 1px solid #d1d5db;
-    padding-top: 8px;
-    line-height: 1.4;
+    padding-top: 6px;
+    line-height: 1.35;
   }}
 
   /* ── Document Body Headings ────────────────────────── */
@@ -296,10 +296,11 @@ def build_html():
   .reflection-quote {{
     background: #fafaf9;
     border-left: 3px solid #78716c;
-    padding: 8px 12px;
-    margin: 10px 0;
+    padding: 6px 10px;
+    margin: 6px 0;
     font-style: italic;
-    font-size: 10pt;
+    font-size: 9.5pt;
+    line-height: 1.4;
   }}
 
   .reflection-quote b {{
@@ -359,6 +360,7 @@ def build_html():
             <tr><td>3</td><td><b>SAMPATH PHILIP GEORGE</b></td><td><code>25BTRCL227</code></td></tr>
             <tr><td>4</td><td><b>ROKESH VENKATESH</b></td><td><code>25BTRCL213</code></td></tr>
             <tr><td>5</td><td><b>RAHUL BISWAS</b></td><td><code>25BTRCL205</code></td></tr>
+            <tr><td>6</td><td><b>PRAVEEN KUMAR</b></td><td><code>25BTRCL195</code></td></tr>
           </tbody>
         </table>
       </td>
@@ -371,12 +373,10 @@ def build_html():
   </div>
 </div>
 
-<div class="page-break"></div>
-
 <!-- ========================================== -->
 <!-- 2. TABLE OF CONTENTS                       -->
 <!-- ========================================== -->
-<h1>Table of Contents</h1>
+<h1 style="page-break-before: always; margin-top: 20px;">Table of Contents</h1>
 <table style="width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 10pt;">
   <tr><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af;"><b>Executive Summary &amp; Abstract</b></td><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af; text-align: right; width: 80px;">Page 3</td></tr>
   <tr><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af;"><b>1. Problem Identification and Industrial Relevance</b></td><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af; text-align: right;">Page 3</td></tr>
@@ -388,9 +388,9 @@ def build_html():
   <tr><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af;"><b>7. Empirical Dataset &amp; Data Pipeline Architecture</b></td><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af; text-align: right;">Page 9</td></tr>
   <tr><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af;"><b>8. Quantitative Experimental Verification &amp; Findings</b></td><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af; text-align: right;">Page 10</td></tr>
   <tr><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af;"><b>9. Individual &amp; Team Learning Outcomes</b></td><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af; text-align: right;">Page 11</td></tr>
-  <tr><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af;"><b>10. Conclusion and Future Research Directions</b></td><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af; text-align: right;">Page 11</td></tr>
-  <tr><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af;"><b>11. Academic Disclosure &amp; AI Assistance Statement</b></td><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af; text-align: right;">Page 12</td></tr>
-  <tr><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af;"><b>12. References &amp; Academic Bibliography</b></td><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af; text-align: right;">Page 12</td></tr>
+  <tr><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af;"><b>10. Conclusion and Future Research Directions</b></td><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af; text-align: right;">Page 12</td></tr>
+  <tr><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af;"><b>11. Academic Disclosure &amp; AI Assistance Statement</b></td><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af; text-align: right;">Page 13</td></tr>
+  <tr><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af;"><b>12. References &amp; Academic Bibliography</b></td><td style="padding: 5px 0; border: none; border-bottom: 1px dotted #9ca3af; text-align: right;">Page 13</td></tr>
 </table>
 
 <!-- ========================================== -->
@@ -798,14 +798,14 @@ Evaluating the primary product triplet—A: Regency Cakestand (|A|=881), B: Whit
 <!-- ========================================== -->
 <!-- 12. SECTION 9: TEAM CONTRIBUTIONS          -->
 <!-- ========================================== -->
-<h1>9. Individual &amp; Team Learning Outcomes</h1>
+<h1 style="page-break-before: always; margin-top: 20px;">9. Individual &amp; Team Learning Outcomes</h1>
 
-<table class="content-table" style="margin-bottom: 20px;">
+<table class="content-table" style="margin-bottom: 14px;">
   <thead>
     <tr>
-      <th style="width: 25%;">Student Name</th>
-      <th style="width: 20%;">USN</th>
-      <th style="width: 55%;">Core Architectural Ownership</th>
+      <th style="width: 24%;">Student Name</th>
+      <th style="width: 18%;">USN</th>
+      <th style="width: 58%;">Core Architectural Ownership</th>
     </tr>
   </thead>
   <tbody>
@@ -834,6 +834,11 @@ Evaluating the primary product triplet—A: Regency Cakestand (|A|=881), B: Whit
       <td><code>25BTRCL205</code></td>
       <td>Data Engineering; UCI Online Retail preprocessing (541k transactions); customer deduplication pipeline; cohort filter system; CSV audit exporter.</td>
     </tr>
+    <tr>
+      <td><b>PRAVEEN KUMAR</b></td>
+      <td><code>25BTRCL195</code></td>
+      <td>Interactive Simulation &amp; Verification; dynamic parameter controller; real-time Bonferroni bounds evaluator; frontend state synchronization; cross-browser benchmarking.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -860,6 +865,11 @@ Evaluating the primary product triplet—A: Regency Cakestand (|A|=881), B: Whit
 <div class="reflection-quote">
   <b>RAHUL BISWAS (USN: 25BTRCL205) &mdash; Data Engineering &amp; Validation:</b><br>
   "Processing 541,909 raw UCI transactions reinforced the importance of disciplined data preparation. Filtering out anonymous sessions was critical to establishing true set unions. Designing the compact 232 KB JSON index showed how data structures directly drive application performance."
+</div>
+
+<div class="reflection-quote">
+  <b>PRAVEEN KUMAR (USN: 25BTRCL195) &mdash; Interactive Systems &amp; Performance Evaluation:</b><br>
+  "Connecting the mathematical solver to responsive user controls demonstrated the power of interactive education. Synchronizing the real-time Bonferroni bound calculations with dynamic 3D rendering gave immediate, visual feedback on how mathematical approximations behave as set parameters shift."
 </div>
 
 <!-- ========================================== -->

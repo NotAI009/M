@@ -19,6 +19,7 @@
   3. **SAMPATH PHILIP GEORGE** — USN: `25BTRCL227` (3D Three.js Volumetric Venn & Particle Engine)
   4. **ROKESH VENKATESH** — USN: `25BTRCL213` (Graph Theory Topology, Centrality & Kruskal's MST)
   5. **RAHUL BISWAS** — USN: `25BTRCL205` (UCI Retail Data Engineering & Experimental Validation)
+  6. **PRAVEEN KUMAR** — USN: `25BTRCL195` (Interactive Simulation Systems & Real-Time Bounds Evaluation)
 
 ---
 
